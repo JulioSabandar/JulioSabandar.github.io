@@ -7,4 +7,4 @@ This site is developed for me to practice and hone my programming skills.
 https://www.w3schools.com/tags/ref_byfunc.asp
 
 # About Me:
-imma n00b programmer
+Full-Stack developer in-training.
