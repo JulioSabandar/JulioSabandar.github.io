@@ -1,0 +1,146 @@
+body{
+  font-family: sans-serif;
+  background-image: url('img/hardwood.jpg');
+  margin: 0 auto;
+  padding: 0;
+}
+
+header{
+	position: fixed;
+  top: 0;
+	width: 100%;
+	z-index: 3;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0px 0px 10px 0px black;
+}
+
+#nbalogo {
+  height: 100px;
+}
+
+.main {
+  margin-top: 100px;
+}
+
+.header2 {
+  text-align: center;
+  color: white;
+  background-color:rgb(2, 105, 179);
+  border-radius: 0 0 35px 35px;
+  padding: 5px, 0;
+  box-shadow: 0 8px 6px -6px black;
+
+}
+
+.header2 h1 {
+  color: white
+}
+
+.container {
+  width: 900px;
+  display: grid;
+  grid-gap: 60px;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 25px;
+  grid-template-areas:  "Giannis-Antetokounmpo Kevin-Durant LeBron-James"
+                        "Stephen-Curry James-Harden Anthony-Davis"
+                        "Kawhi-Leonard Joel-Embiid Luka-Doncic"
+                        "Damien-Lillard Nikola-Jokic Kyrie-Irving"
+}
+
+.top {
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.ranking {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  font-size: 100px;
+  font-weight: bold;
+  color: white;
+  z-index: 2;
+}
+
+.profile-picture{
+  width: 300px;
+  border-radius: 35px 35px 0 0;
+  height: auto;
+  padding: 0;
+  margin-bottom: 0;
+  z-index: 2;
+}
+
+.top:hover .ranking {
+  display: block;
+}
+
+.top .ranking:hover + .profile-picture {
+  filter:brightness(20%);
+}
+
+.profile-picture:hover {
+  filter: brightness(20%)
+}
+
+.button-container {
+  border-radius: 0 0 35px 35px;
+  background-color:rgb(2, 105, 179);
+  margin-top: -25px;
+  box-shadow: 0 8px 6px -6px black;
+  position: relative;
+  z-index: 1;
+}
+
+.overlay {
+  border-radius: 0 0 35px 35px;
+  padding: 0;
+  display: none;
+  position: absolute;
+  z-index: 2;
+  width: 300px;
+  height: 100%;
+  padding-bottom: 25px;
+  margin-top: -25px;
+  background-color: rgb(214, 31, 84);
+}
+
+
+
+.button-container:hover .overlay {
+  display:block;
+}
+
+
+.button {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  position: relative;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-radius: 0px 0px 35px 35px;
+}
+
+/*
+.button:hover {
+  background-color: rgb(214, 31, 84);
+}
+*/
+
+Footer {
+  background-color: white;
+  color: rgb(2, 105, 179);
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+}

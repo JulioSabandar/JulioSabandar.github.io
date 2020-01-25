@@ -1,0 +1,77 @@
+body{
+  font-family: sans-serif;
+  background-image: url('../img/hardwood.jpg');
+  margin: 0 auto;
+  padding: 0;
+}
+
+
+header{
+	position: fixed;
+  top: 0;
+	width: 100%;
+	z-index: 2;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 8px 6px -6px black;
+}
+
+#nbalogo {
+  height: 100px;
+}
+
+#nbalogo:hover {
+  transform: scale(1.03);
+}
+
+
+
+.main {
+  margin-top: 100px;
+}
+
+.header2 {
+  text-align: center;
+  color: white;
+  background-color:rgb(2, 105, 179);
+  border-radius: 0 0 35px 35px;
+  padding: 5px, 0;
+  box-shadow: 0 8px 6px -6px black;
+
+}
+
+.header2 h1 {
+  color: white
+}
+
+
+.container {
+  width: 1280px;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  display: flex;
+}
+
+
+.youtube {
+  justify-content: center;
+}
+
+
+Footer {
+  background-color: white;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.abc {
+  text-decoration: none;
+  color: rgb(2, 105, 179);
+}
+
+.abc:hover {
+  text-decoration: underline;
+}
