@@ -5,6 +5,22 @@ body{
   padding: 0;
 }
 
+.stats-container {
+  width: auto;
+  margin: auto;
+  text-align: center;
+  pad
+
+}
+
+.stats-container .stats {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0;
+  border: 5px solid red;
+}
+
 
 header{
 	position: fixed;
