@@ -57,6 +57,7 @@ header{
 }
 
 .card {
+  transition: 0.5s;
   border-radius: 35px 35px 35px 35px;
   height: 95.125%;
 }
